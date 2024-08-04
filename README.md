@@ -1,9 +1,11 @@
 # Calculadora IMC
-Aplicativo Android Nativo desenvolvido com a linguagem de programação Kotlin. Cujo objetivo é realizar o calculo do IMC e mostrar o resultado na próxima tela.
+O projeto Calculadora de Combustível é uma aplicação prática desenvolvida com a linguagem de programação Kotlin com o objetivo de ajudar usuários a calcular o consumo de combustível de seus veículos. A aplicação permite registrar dados de abastecimento e calcular o custo de suas viagens de maneira simples e eficaz.
 
 ## :camera_flash: Screenshots
 
-<img src="https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5" width=200>
+<img src="https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5" width=200/> <img src="https://github.com/user-attachments/assets/21070731-6a72-4bbe-a792-8565cd99b045" width=200/> <img src="https://github.com/user-attachments/assets/723ccc60-0fd4-4117-98f4-28fbd4ccf002" width=200/> 
+
+<img src="https://github.com/user-attachments/assets/5a117cde-fea6-4914-9ff2-d828d10aaf98" width=200/> <img src="https://github.com/user-attachments/assets/e67229f0-3231-44fe-9f99-41d5b7e00007" width=200/>
 
 ## Tecnologias
 
