@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo5"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="310dp"
+        android:text="Gasto de combustivel na viagem:"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100.00"
+        android:maxLength="8"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_titulo_resultado" />
+
+    <TextView
+        android:id="@+id/tv_resumo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Resumo dos dados da viagem:"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_resultado" />
+    
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vertical_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/tv_resumo_preco_combustivel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Preço Combustível:"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@id/vertical_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_resumo" />
+
+    <TextView
+        android:id="@+id/tv_resumo_consumo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Consumo do veículo:"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@id/vertical_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_resumo_preco_combustivel" />
+
+    <TextView
+        android:id="@+id/tv_resumo_distancia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Distância:"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@id/vertical_guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_resumo_consumo" />
+
+    <TextView
+        android:id="@+id/tv_dado_valor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="R$ 4,56"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_resumo"
+        app:layout_constraintStart_toEndOf="@id/tv_resumo_preco_combustivel" />
+
+    <TextView
+        android:id="@+id/tv_dado_consumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="13"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dado_valor"
+        app:layout_constraintStart_toEndOf="@id/tv_resumo_consumo" />
+
+    <TextView
+        android:id="@+id/tv_dado_km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="100"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dado_consumo"
+        app:layout_constraintStart_toEndOf="@id/tv_resumo_distancia" />
+
+    <Button
+        android:id="@+id/btn_reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recalcular"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_dado_km" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
