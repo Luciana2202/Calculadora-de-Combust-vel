@@ -3,9 +3,9 @@ O projeto Calculadora de Combustível é uma aplicação prática desenvolvida c
 
 ## :camera_flash: Screenshots
 
-<img src="https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5" width=200 heigth= 100/>   <img src="https://github.com/user-attachments/assets/21070731-6a72-4bbe-a792-8565cd99b045" width=200 heigth= 100/>  <img src="https://github.com/user-attachments/assets/723ccc60-0fd4-4117-98f4-28fbd4ccf002" width=200 height= 100/> 
+<img src="https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5" width=200/>   <img src="https://github.com/user-attachments/assets/6f14565d-0d36-41ed-b6fc-c92b4372882b" width=200 />  <img src="https://github.com/user-attachments/assets/8f924a85-c7d3-49e3-adf2-4279e1e42ce0" width=200> 
 
-<img src="https://github.com/user-attachments/assets/5a117cde-fea6-4914-9ff2-d828d10aaf98" width=200 height= 100/>   <img src="https://github.com/user-attachments/assets/e67229f0-3231-44fe-9f99-41d5b7e00007" width=200 height= 100/>
+<img src="https://github.com/user-attachments/assets/0d2514a7-246c-4fab-aa13-64737bdac8fd" width=200/>   <img src="https://github.com/user-attachments/assets/910c683d-8068-4571-b7d9-03c437aebb23" width=200 />
 
 ## Tecnologias
 
