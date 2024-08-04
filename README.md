@@ -3,7 +3,7 @@ Aplicativo Android Nativo desenvolvido com a linguagem de programação Kotlin. 
 
 ## :camera_flash: Screenshots
 
-<img src="![calculadora_combustivel_tela1](https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5)" width=200>
+<img src="https://github.com/user-attachments/assets/933b85b3-a8eb-4b8d-9f0e-b1e1a391ade5" width=200>
 
 ## Tecnologias
 
